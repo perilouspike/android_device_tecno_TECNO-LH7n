@@ -128,7 +128,8 @@ BOARD_MAIN_PARTITION_LIST := \
     system \
     system_ext \
     vendor \
-    product\ system_ext \
+    product \
+    system_ext \
     vendor_dlkm \
     odm_dlkm
 
