@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/tecno/TECNO-LH7n
+LOCAL_PATH := device/tecno/TECNO_pova5
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 31

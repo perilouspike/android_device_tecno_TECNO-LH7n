@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_TECNO-LH7n.mk
+    $(LOCAL_DIR)/twrp_TECNO_pova5.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_TECNO-LH7n-eng
+    twrp_TECNO_pova5-eng

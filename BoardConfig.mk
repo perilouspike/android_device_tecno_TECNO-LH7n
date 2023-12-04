@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Device path
-DEVICE_PATH := device/tecno/TECNO-LH7n
+DEVICE_PATH := device/tecno/TECNO_pova5
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

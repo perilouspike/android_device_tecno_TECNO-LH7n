@@ -29,14 +29,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from TECNO-LH7n device
-$(call inherit-product, device/tecno/TECNO-LH7n/device.mk)
+$(call inherit-product, device/tecno/TECNO_pova5/device.mk)
 
 # Device Target Name
-PRODUCT_RELEASE_NAME := TECNO-LH7n
+PRODUCT_RELEASE_NAME := TECNO_pova5
 
 # Device identifier
-PRODUCT_DEVICE := TECNO-LH7n
-PRODUCT_NAME := twrp_TECNO-LH7n
+PRODUCT_DEVICE := TECNO_pova5
+PRODUCT_NAME := twrp_TECNO_pova5
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO LH7n
 PRODUCT_MANUFACTURER := tecno
