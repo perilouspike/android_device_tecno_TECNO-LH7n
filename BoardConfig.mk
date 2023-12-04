@@ -138,7 +138,7 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE :=
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
 # Platform
-PRODUCT_PLATFORM := mt6833
+PRODUCT_PLATFORM := mt6789
 TARGET_BOARD_PLATFORM := $(PRODUCT_PLATFORM)
 
 # Recovery
