@@ -44,4 +44,4 @@ PRODUCT_MANUFACTURER := tecno
 PRODUCT_GMS_CLIENTID_BASE := android-$(PRODUCT_RRAND)
 
 # Hide Reflash TWRP
-PRODUCT_BUILD_PROP_OVERRIDES += ro.twrp.vendor_boot=true
+#PRODUCT_BUILD_PROP_OVERRIDES += ro.twrp.vendor_boot=true
