@@ -188,10 +188,12 @@ BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT :=
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_SCREEN_BLANK_ON_BOOT := true
+#TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_USES_MKE2FS := true
 TW_INCLUDE_FASTBOOTD := true
+TW_NO_SCREEN_BLANK := true
+TW_LOAD_VENDOR_MODULES := "focaltech_ts_fw_01.bin focaltech_ts_fw.bin novatek_ts_fw_144.bin novatek_ts_fw_jdi.bin novatek_ts_fw_tm.bin novatek_ts_fw.bin"
 
 # Crypto
 #TW_INCLUDE_CRYPTO := true
