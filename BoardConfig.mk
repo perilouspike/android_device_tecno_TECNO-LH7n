@@ -183,6 +183,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BOARD_USES_RECOVERY_AS_BOOT :=
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := 
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT :=
 
@@ -192,7 +193,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_USES_MKE2FS := true
 TW_INCLUDE_FASTBOOTD := true
-TW_LOAD_VENDOR_MODULES := "ilitek_ts_fw.bin focaltech_ts_fw.bin novatek_ts_fw_144.bin novatek_ts_fw_jdi.bin novatek_ts_fw_tm.bin novatek_ts_fw.bin"
+#TW_LOAD_VENDOR_MODULES := "ilitek_ts_fw.bin focaltech_ts_fw.bin novatek_ts_fw_144.bin novatek_ts_fw_jdi.bin novatek_ts_fw_tm.bin novatek_ts_fw.bin"
 
 # Crypto
 #TW_INCLUDE_CRYPTO := true
